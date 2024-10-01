@@ -13,3 +13,8 @@
   font-size: 12px;
   margin: 30px 0;
 }
+
+.App a {
+  text-decoration: none;
+  color: rgb(61, 90, 255);
+}

@@ -15,8 +15,9 @@ function App() {
       </main>
 
       <footer className='App-footer'>
-        Coded by Simona Katarína Hlinka an open-sourced on GitHub
-      </footer>
+        Coded by <a href='https://simona-katarina-portfolio.netlify.app/' target='_blank' rel="noopener noreferrer">Simona Katarína Hlinka </a>and is 
+      <a href='https://github.com/SimonaKatarina/weather-skh-react-project/blob/master/README.md' target="_blank" rel="noopener noreferrer"> open-sourced on GitHub</a>
+    </footer>
     </div>
   </div>
   );
