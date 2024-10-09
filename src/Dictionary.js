@@ -28,9 +28,11 @@ function handleResponse(response){
 
     return (
         <div className="Dictionary">
+          <section>
           <form className="Search" onSubmit={search}>
             <input  type="search" placeholder="Your word here..." onChange={handleKeywordChange} />
           </form>
+          </section>
           <Result results={results}/>
         </div>
     );

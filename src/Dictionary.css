@@ -1,4 +1,14 @@
 .Search {
 text-align: center;
 margin: 0 auto;
+
 }
+
+.Dictionary section {
+   background-color: rgb(218, 163, 143, 0.9); 
+   padding: 30px;
+   margin: 20px;
+   border-radius: 16px;
+  box-shadow: 10px 10px 10px 0px rgb(155, 125, 97, 0.6);
+}
+
