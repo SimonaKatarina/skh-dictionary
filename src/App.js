@@ -1,4 +1,3 @@
-import skhlogo from './skhlogo.jpg';
 import './App.css';
 import Dictionary from "./Dictionary.js"
 
@@ -7,11 +6,13 @@ function App() {
     <div className="App">
       <div className='container'>
       <header className="App-header">
-    <img src={skhlogo} className='App-logo img-fluid' alt='logo'/>
-      </header>
+        <h1>
+        - Dictionary -
+        </h1>
+     </header>
 
       <main>
-        <Dictionary />
+        <Dictionary defaultKeyword="dictionary"/>
       </main>
 
       <footer className='App-footer'>
